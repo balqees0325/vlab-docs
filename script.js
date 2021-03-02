@@ -1,5 +1,5 @@
 const hamburger = document.getElementById('hamburger');
-secondNav = document.getElementById('second-nav');
+const secondNav = document.getElementById('second-nav');
 
 const showNav = () => {
   if(hamburger.src.endsWith('icon-hamburger.svg')) {
