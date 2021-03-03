@@ -141,6 +141,26 @@ p {
 .about h2, .about p, .black h2, .black p, .special h3, .special p {
  margin: 10px;
 }
+.modal {
+  position: relative;
+  top: 0px;
+   display: none;
+  background-color: #fefefe;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%; 
+  z-index: 10;
+}
+.modal img {
+  position: absolute;
+  right: 20px;
+  top: 20px;
+  cursor: pointer;
+} 
+.modal img:hover {
+  color: #000;
+}
 .stand, .black, .special {
   border: 2px solid #eee;
   border-radius: 6px;
@@ -186,18 +206,21 @@ small {
 .modal.stand, .modal.black, .modal.special {
   position: relative;
 }
-.modal.stand, .modal.black, .modal.special,  .radio {
-  display: absolute;
-  top:  50px;
-  left: 10px;
-  border: 4px solid red;
-}
 .hEl {
 font-size: 16px;
  padding: 5px;
  position: absolute;
  top: 5px;
  right: 35px;
+}
+
+.rad a {
+  color:#097069c9;
+  cursor: pointer;
+  padding: 10px;
+}
+.stand p, .black p, .special p {
+  padding-left: 25px;
 }
 
 
